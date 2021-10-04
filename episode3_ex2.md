@@ -28,3 +28,5 @@ Git keeps all of its files in the ```.git``` directory. To recover from this lit
 But be careful! Running this command in the wrong directory, will remove the entire Git history of a project you might want to keep. Therefore, always check your current directory using the command ```pwd```.
 
 </details>
+
+[Episode 4](episode4.md)
