@@ -15,7 +15,8 @@ $ ls -a           # ensure the .git subdirectory is present indicating we have c
 Is the ```git init``` command, run inside the ```cocktails``` subdirectory, required for tracking files stored in the ```cocktails``` subdirectory?
 
 <details>
-<summary>Solution
+<summary>
+  Solution
 </summary>
 
 No. Alfredo does not need to make the cocktails subdirectory a Git repository because the recipes repository will track all files, sub-directories, and subdirectory files under the recipes directory. Thus, in order to track all information about cocktails, Alfredo only needed to add the cocktails subdirectory to the recipes directory.
