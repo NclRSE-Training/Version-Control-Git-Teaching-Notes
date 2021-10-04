@@ -59,5 +59,6 @@ $ git commit -m "Write prices for ingredients and their source"
  create mode 100644 groceries.md
 
 ```
+  </details>
   
   [Episode 4 exercise 4](episode4_ex4.md)
