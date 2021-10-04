@@ -43,5 +43,6 @@ Modify the file as described (modify one line, add a fourth line). To display th
 $ git diff me.txt
   ```
   </details>
+  
  [Episode 5 image 1](episode5_img1.md)
 
