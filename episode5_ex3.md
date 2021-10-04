@@ -54,5 +54,5 @@ I like tomatos, therefore I like ketchup
   
   </details>
   
-[Episode 5 exercise 4](episode5_ex4.md)
+[Episode 6 exercise 1](episode6_ex1.md)
 
