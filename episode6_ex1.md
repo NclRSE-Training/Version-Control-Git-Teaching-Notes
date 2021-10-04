@@ -24,5 +24,6 @@ receipts/plots/
 This line will ensure only the contents of ```receipts/plots``` is ignored, and not the contents of ```receipts/data```.
 
 As with most programming issues, there are a few alternative ways that one may ensure this ignore rule is followed. The “Ignoring Nested Files: Variation” exercise has a slightly different directory structure that presents an alternative solution. Further, the discussion page has more detail on ignore rules.
-
+</details>
+  
 [Episode 6 exercise 2](episode6_ex2.md)
