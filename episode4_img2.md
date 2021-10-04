@@ -1,1 +1,1 @@
-[Git Committing](git_committing.svg)
+[Git Committing](git-committing.svg)
