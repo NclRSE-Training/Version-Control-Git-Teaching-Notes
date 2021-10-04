@@ -29,5 +29,6 @@ $ git status
 ```console
 fatal: Not a git repository (or any of the parent directories): .git
 ```
+</details>
 
   [Episode 3 exercise 2](expisode3_ex2.md)
