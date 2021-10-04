@@ -1,5 +1,5 @@
 
-## 4.1 Committing Changes to Git
+## 4.2 Committing Changes to Git
 
 Which command(s) below would save the changes of myfile.txt to my local Git repository?
 
@@ -31,6 +31,6 @@ $ git commit -m myfile.txt "my recent changes"
 1. Would try to create a new repository.
 1. Is correct: first add the file to the staging area, then commit.
 1. Would try to commit a file “my recent changes” with the message myfile.txt.
-  </details
+  </details>
 
 [Episode 4 exercise 3](episode4_ex3.md)
