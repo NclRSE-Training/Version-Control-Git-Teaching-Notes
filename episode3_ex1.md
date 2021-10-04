@@ -1,5 +1,5 @@
 
-## Places to Create Git Repositories
+## 3.1 Places to Create Git Repositories
 
 Along with tracking information about recipes (the project we have already created), Alfredo would also like to track information about cocktails. Despite Jimmy’s concerns, Alfredo creates a cocktails project inside his recipes project with the following sequence of commands:
 
