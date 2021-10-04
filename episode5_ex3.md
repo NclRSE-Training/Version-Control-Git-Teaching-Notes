@@ -52,5 +52,7 @@ At this time, the working copy still has the second line (and
 I like tomatos, therefore I like ketchup
   ```
   
+  </details>
+  
 [Episode 5 exercise 4](episode5_ex4.md)
 
