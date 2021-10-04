@@ -29,4 +29,4 @@ But be careful! Running this command in the wrong directory, will remove the ent
 
 </details>
 
-[Episode 4](episode4.md)
+[Episode 4](episode4_img1.md)
