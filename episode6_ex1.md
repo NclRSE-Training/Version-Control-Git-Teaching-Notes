@@ -17,7 +17,7 @@ If you only want to ignore the contents of ```receipts/plots```, you can change 
 
   ```console
 receipts/plots/
-  ```
+  \```
 
 This line will ensure only the contents of ```receipts/plots``` is ignored, and not the contents of ```receipts/data```.
 
