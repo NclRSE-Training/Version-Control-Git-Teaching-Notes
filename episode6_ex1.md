@@ -11,9 +11,7 @@ receipts/plots
 How would you ignore only ```receipts/plots``` and not ```receipts/data```?
 
 <details>
-  <summary>
-Solution
-  </summary>
+  <summary>Solution</summary>
 
 If you only want to ignore the contents of ```receipts/plots```, you can change your ```.gitignore``` to ignore only the ```/plots/``` subfolder by adding the following line to your .gitignore:
 
