@@ -16,9 +16,9 @@ How would you ignore only ```receipts/plots``` and not ```receipts/data```?
   
 If you only want to ignore the contents of ```receipts/plots```, you can change your ```.gitignore``` to ignore only the ```/plots/``` subfolder by adding the following line to your .gitignore:
 
-  ```console
+```console
 receipts/plots/
-  ```
+```
 
 This line will ensure only the contents of ```receipts/plots``` is ignored, and not the contents of ```receipts/data```.
 
