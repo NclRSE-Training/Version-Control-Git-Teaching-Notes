@@ -13,35 +13,36 @@ Solution
 
 If needed, move out of the ```recipes``` folder:
 
-  ```bash
+  <pre>
 $ cd ..
-  ```
+  </pre>
 
 Create a new folder called ```bio``` and ‘move’ into it:
 
-  ```bash
+  <pre>
 $ mkdir bio
 $ cd bio
-  ```
+  </pre>
 
 Initialise git:
 
-```bash
+  <pre>
   $ git init
-  ```
+  </pre>
 
 Create your biography file ```me.txt``` using ```nano``` or another text editor. Once in place, add and commit it to the repository:
 
-  ```bash
+  <pre>
 $ git add me.txt
 $ git commit -m "Add biography file"
-  ```
+  </pre>
 
 Modify the file as described (modify one line, add a fourth line). To display the differences between its updated state and its original state, use ```git diff```:
 
-  ```bash
+  <pre>
 $ git diff me.txt
-  ```
+  </pre>
+  
   </details>
   
  [Episode 5 image 1](episode5_img1.md)
