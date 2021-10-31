@@ -28,10 +28,10 @@ $ git commit -m myfile.txt "my recent changes"
   </summary>
   
   <ol>
-<li>Would only create a commit if files have already been staged.
-<li>Would try to create a new repository.
-<li>Is correct: first add the file to the staging area, then commit.
-<li>Would try to commit a file “my recent changes” with the message myfile.txt.
+    <li>Would only create a commit if files have already been staged.</li>
+    <li>Would try to create a new repository.</li>
+    <li>Is correct: first add the file to the staging area, then commit.</li>
+    <li>Would try to commit a file “my recent changes” with the message myfile.txt.</li>
   </ol>
   
   </details>
