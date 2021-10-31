@@ -1,4 +1,4 @@
-# Legace Version Control Systems
+# Legacy Version Control Systems
 ## Since 1980s
 
 ![image](https://raw.githubusercontent.com/NclRSE-Training/VersionControlGitTeachingNotes/gh-pages/vc_logos.jpg)
