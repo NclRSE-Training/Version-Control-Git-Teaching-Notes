@@ -37,7 +37,7 @@ $ git add me.txt
 $ git commit -m "Add biography file"
   </pre>
 
-Modify the file as described (modify one line, add a fourth line). To display the differences between its updated state and its original state, use ```git diff```:
+Modify the file as described (modify one line, add a fourth line). To display the differences between its updated state and its original state, use <code>git diff</code>:
 
   <pre>
 $ git diff me.txt
