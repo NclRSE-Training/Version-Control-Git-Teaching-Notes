@@ -27,10 +27,13 @@ $ git commit -m myfile.txt "my recent changes"
     Solution
   </summary>
   
-1. Would only create a commit if files have already been staged.
-1. Would try to create a new repository.
-1. Is correct: first add the file to the staging area, then commit.
-1. Would try to commit a file “my recent changes” with the message myfile.txt.
+  <ol>
+<li>Would only create a commit if files have already been staged.
+<li>Would try to create a new repository.
+<li>Is correct: first add the file to the staging area, then commit.
+<li>Would try to commit a file “my recent changes” with the message myfile.txt.
+  </ol>
+  
   </details>
 
 [Episode 4 exercise 3](episode4_ex3.md)
