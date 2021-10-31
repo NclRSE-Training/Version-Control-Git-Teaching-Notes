@@ -8,7 +8,7 @@ Jimmy explains to Alfredo how a nested repository is redundant and may cause con
   Solution – USE WITH CAUTION!
 </summary>
         
-### Background
+  <h3>Background</h3>
 
 Removing files from a git repository needs to be done with caution. To remove files from the working tree and not from your working directory, use
 
