@@ -9,6 +9,7 @@ Imagine you have 5 co-authors. How would you manage the changes and comments the
   <summary>
     Solution
   </summary>
+  
   <p>
 Recovering the excellent version is only possible if you created a copy of the old version of the paper. The danger of losing good versions often leads to the problematic workflow illustrated in the PhD Comics cartoon at the top of this page.
   </p><p>
