@@ -18,7 +18,8 @@ Below are the right steps and explanations for Jennifer to use git revert, what 
     Solution
   </summary>
   
-```git log --graph --oneline```
+  <code>git log --graph --oneline</code>
+  
 </details>
 
 [Episode 5 exercise 3](episode5_ex3.md)
