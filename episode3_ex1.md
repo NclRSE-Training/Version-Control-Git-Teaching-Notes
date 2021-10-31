@@ -24,6 +24,7 @@ No. Alfredo does not need to make the cocktails subdirectory a Git repository be
   </p><p>
 Additionally, Git repositories can interfere with each other if they are “nested”: the outer repository will try to version-control the inner repository. Therefore, it’s best to create each new Git repository in a separate directory. To be sure that there is no conflicting repository in the directory, check the output of git status. If it looks like the following, you are good to go to create a new repository as shown above:
   </p>
+  
 <pre>
 $ git status
 </pre>
