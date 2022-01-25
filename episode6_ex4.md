@@ -11,7 +11,7 @@ receipts/data/market_position/gps/info.txt
 receipts/plots
 ```
 
-What’s the shortest ```.gitignore``` rule you could write to ignore all ```.dat``` files in ```result/data/market_position/gps```? Do not ignore the info.txt.
+What’s the shortest ```.gitignore``` rule you could write to ignore all ```.dat``` files in ```result/data/market_position/gps```? Do not ignore the ```info.txt```.
 
 
 <details>
@@ -19,8 +19,10 @@ What’s the shortest ```.gitignore``` rule you could write to ignore all ```.da
 Solution
   </summary>
 
-Appending ```receipts/data/market_position/gps/*.dat``` will match every file in ```receipts/data/market_position/gps``` that ends with ```.dat```. The file ```receipts/data/market_position/gps/info.txt``` will not be ignored.
-
+  <p>
+Appending <code>receipts/data/market_position/gps/*.dat</code> will match every file in <code>receipts/data/market_position/gps</code> that ends with <code>.dat</code>. The file <code>receipts/data/market_position/gps/info.txt</code> will not be ignored.
+  </p>
+      
 </details>
 
 [Episode 6 exercise 5](episode6_ex5.md)
