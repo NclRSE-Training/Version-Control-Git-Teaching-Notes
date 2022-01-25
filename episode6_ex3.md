@@ -17,15 +17,15 @@ Hint: think a bit about how you created an exception with the ```!``` operator b
 
 <details>
   <summary>
-  Solution
+Solution
   </summary>
 
-If you want to ignore the contents of ```receipts/``` but not those of ```receipts/data/```, you can change your ```.gitignor```e to ignore the contents of ```receipts``` folder, but create an exception for the contents of the ```receipts/data``` subfolder. Your ```.gitignore would``` look like this:
-
-```console
-receipts/*               # ignore everything in receipts folder
-!receipts/data/          # do not ignore receipts/data/ contents
-```
+  <p>
+    If you want to ignore the contents of <code>receipts/</code> but not those of <code>receipts/data/</code>, you can change your <code>.gitignore</code> to ignore the contents of <code>receipts</code> folder, but create an exception for the contents of the <code>receipts/data</code> subfolder. Your <code>.gitignore</code> would look like this:
+  </p>
+  
+  <pre><code>receipts/*               # ignore everything in receipts folder
+!receipts/data/          # do not ignore receipts/data/ contents</code></pre>
 
 </details>
 
