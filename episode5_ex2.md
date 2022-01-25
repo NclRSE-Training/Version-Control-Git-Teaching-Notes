@@ -5,22 +5,18 @@ Jennifer is collaborating on her Python script with her colleagues and realizes 
 Below are the right steps and explanations for Jennifer to use ```git revert```, what is the missing command?
 
 1. ``` ________ # Look at the git history of the project to find the commit ID```
-
 1. Copy the ID (the first few characters of the ID, e.g. 0b1d055).
-
 1. ```git revert [commit ID]```
-
 1. Type in the new commit message.
-
 1. Save and close
 
 <details>
   <summary>
-Solution
+    Solution
   </summary>
   
   <pre><code>git log --graph --oneline</code></pre>
   
 </details>
 
-[Episode 5 exercise 3](episode5_ex3.md)
+[Episode 5 Exercise 3](episode5_ex3.md)
