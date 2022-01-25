@@ -1,4 +1,4 @@
-## Checking Understanding of ```git diff```
+## 5.4 Checking Understanding of ```git diff```
 
 Consider this command: ```git diff HEAD~9 guacamole.md```. What do you predict this command will do if you execute it? What happens when you do execute it? Why?
 
