@@ -16,23 +16,19 @@ Is the ```git init``` command, run inside the ```cocktails``` subdirectory, requ
 
 <details>
   <summary>
-Solution
+    Solution
   </summary>
 
   <p>
     No. Alfredo does not need to make the <code>cocktails</code> subdirectory a Git repository because the <code>recipes</code> repository will track all files, sub-directories, and subdirectory files under the <code>recipes</code> directory. Thus, in order to track all information about cocktails, Alfredo only needed to add the <code>cocktails</code> subdirectory to the <code>recipes</code> directory.
   </p>
   <p>
-Additionally, Git repositories can interfere with each other if they are “nested”: the outer repository will try to version-control the inner repository. Therefore, it’s best to create each new Git repository in a separate directory. To be sure that there is no conflicting repository in the directory, check the output of <code>git status</code>. If it looks like the following, you are good to go to create a new repository as shown above:
+    Additionally, Git repositories can interfere with each other if they are “nested”: the outer repository will try to version-control the inner repository. Therefore, it’s best to create each new Git repository in a separate directory. To be sure that there is no conflicting repository in the directory, check the output of <code>git status</code>. If it looks like the following, you are good to go to create a new repository as shown above:
   </p>
   
-  <pre><code>
-$ git status
-  </code></pre>
+  <pre><code>$ git status</code></pre>
 
-  <pre><code>
-fatal: Not a git repository (or any of the parent directories): .git
-  </code></pre>
+  <pre><code>fatal: Not a git repository (or any of the parent directories): .git</code></pre>
 </details>
 
 [Episode 3 exercise 2](episode3_ex2.md)
