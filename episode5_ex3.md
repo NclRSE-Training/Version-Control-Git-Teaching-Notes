@@ -38,21 +38,21 @@ Error because you have changed ketchup.md without committing the changes
 Solution
   </summary>
 
+  <p>
 The answer is 2.
+  </p>
+  <p>
+    The changes to the file from the second <code>echo</code> command are only applied to the working copy, The command <code>git add ketchup.md</code> places the current version of <code>ketchup.md</code> into the staging area. not the version in the staging area.
+  </p>
+  <p>
+    So, when <code>git commit -m "my opinions about the red sauce"</code> is executed, the version of <code>ketchup.md</code> committed to the repository is the one from the staging area and has only one line.
+  </p>
+  <p>
+    At this time, the working copy still has the second line (and <code>git status</code> will show that the file is modified). However, <code>git checkout HEAD ketchup.md</code> replaces the working copy with the most recently committed version of <code>ketchup.md</code>. So, <code>cat ketchup.md</code> will output:
+  </p>
 
-The changes to the file from the second ```echo``` command are only applied to the working copy, The command ```git add ketchup.md``` places the current version of ```ketchup.md``` into the staging area. not the version in the staging area.
-
-So, when ```git commit -m "my opinions about the red sauce"``` is executed, the version of ```ketchup.md``` committed to the repository is the one from the staging area and has only one line.
-
-At this time, the working copy still has the second line (and
-
-```git status``` will show that the file is modified). However, ```git checkout HEAD ketchup.md``` replaces the working copy with the most recently committed version of ```ketchup.md```. So, ```cat ketchup.md``` will output
-
-```console
-I like tomatos, therefore I like ketchup
-  ```
+  <pre><code>I like tomatos, therefore I like ketchup</code></pre>
   
-  </details>
+</details>
   
 [Episode 6 exercise 1](episode6_ex1.md)
-
