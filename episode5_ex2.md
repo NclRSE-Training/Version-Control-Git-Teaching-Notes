@@ -1,7 +1,8 @@
 ## 5.2 Reverting a Commit
 
 Jennifer is collaborating on her Python script with her colleagues and realizes her last commit to the project’s repository contained an error and she wants to undo it. ```git revert [erroneous commit ID]``` will create a new commit that reverses Jennifer’s erroneous commit. Therefore ```git revert``` is different to ```git checkout [commit ID]``` because git checkout returns the files within the local repository to a previous state, whereas ```git revert``` reverses changes committed to the local and project repositories.
-Below are the right steps and explanations for Jennifer to use git revert, what is the missing command?
+
+Below are the right steps and explanations for Jennifer to use ```git revert```, what is the missing command?
 
 1. ``` ________ # Look at the git history of the project to find the commit ID```
 
@@ -15,10 +16,10 @@ Below are the right steps and explanations for Jennifer to use git revert, what 
 
 <details>
   <summary>
-    Solution
+Solution
   </summary>
   
-  <code>git log --graph --oneline</code>
+  <pre><code>git log --graph --oneline</code></pre>
   
 </details>
 
