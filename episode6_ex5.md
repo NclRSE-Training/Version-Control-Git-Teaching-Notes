@@ -15,8 +15,10 @@ What will be the result?
 Solution
   </summary>
 
-The ```!``` modifier will negate an entry from a previously defined ignore pattern. Because the ```!*.dat``` entry negates all of the previous ```.dat``` files in the ```.gitignore```, none of them will be ignored, and all ```.dat``` files will be tracked.
-
+  <p>
+    The <code>!</code> modifier will negate an entry from a previously defined ignore pattern. Because the <code>!*.dat</code> entry negates all of the previous <code>.dat</code> files in the <code>.gitignore</code>, none of them will be ignored, and all <code>.dat</code> files will be tracked.
+  </p>
+    
 </details>
 
 [Episode 6 exercise 6](episode6_ex6.md)
