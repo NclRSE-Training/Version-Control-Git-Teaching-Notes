@@ -1,4 +1,3 @@
-
 ## 6.4 Ignoring all data Files in a Directory
 
 Assuming you have an empty .gitignore file, and given a directory structure that looks like:
@@ -16,13 +15,13 @@ What’s the shortest ```.gitignore``` rule you could write to ignore all ```.da
 
 <details>
   <summary>
-Solution
+    Solution
   </summary>
 
   <p>
-Appending <code>receipts/data/market_position/gps/*.dat</code> will match every file in <code>receipts/data/market_position/gps</code> that ends with <code>.dat</code>. The file <code>receipts/data/market_position/gps/info.txt</code> will not be ignored.
+    Appending <code>receipts/data/market_position/gps/*.dat</code> will match every file in <code>receipts/data/market_position/gps</code> that ends with <code>.dat</code>. The file <code>receipts/data/market_position/gps/info.txt</code> will not be ignored.
   </p>
       
 </details>
 
-[Episode 6 exercise 5](episode6_ex5.md)
+[Episode 6 Exercise 5](episode6_ex5.md)
