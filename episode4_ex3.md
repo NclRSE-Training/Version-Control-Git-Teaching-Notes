@@ -11,7 +11,9 @@ The staging area can hold changes from any number of files that you want to comm
 Solution
   </summary>
 
-First we make our changes to the <code>guacamole.md</code> and <code>groceries.md</code> files:
+  <p>
+    First we make our changes to the <code>guacamole.md</code> and <code>groceries.md</code> files:
+  </p>
 
   <pre><code>$ nano guacamole.md
 $ cat guacamole.md</code></pre>
@@ -29,16 +31,22 @@ $ cat groceries.md</code></pre>
 - lime: 0.64 per unit
 - salt: 2 per kg</code></pre>
 
-Now you can add both files to the staging area. We can do that in one line:
+  <p>
+    Now you can add both files to the staging area. We can do that in one line:
+  </p>
 
 <pre><code>$ git add guacamole.md groceries.md</code></pre>
   
-Or with multiple commands:
+  <p>
+    Or with multiple commands:
+  </p>
   
   <pre><code>$ git add guacamole.md
 $ git add groceries.md</code></pre>
 
-  Now the files are ready to commit. You can check that using <code>git status</code>. If you are ready to commit use:
+  <p>
+    Now the files are ready to commit. You can check that using <code>git status</code>. If you are ready to commit use:
+  </p>
 
   <pre><code>$ git commit -m "Write prices for ingredients and their source"</code></pre>
 
@@ -49,4 +57,4 @@ $ git add groceries.md</code></pre>
 
 </details>
   
-[Episode 4 exercise 4](episode4_ex4.md)
+[Episode 4 Exercise 4](episode4_ex4.md)
