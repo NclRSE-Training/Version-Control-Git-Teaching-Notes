@@ -13,4 +13,4 @@ In this lesson, we introduced the ```git push``` command. How is ```git push``` 
   
 </details>
 
-[Episode 7 Exercise 4](episode7_ex4)
+[Episode 7 Exercise 4](episode7_ex4.md)
