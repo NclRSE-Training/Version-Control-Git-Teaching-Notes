@@ -1,4 +1,3 @@
-
 ## The Order of Rules
 
 Given a ```.gitignore``` file with the following contents:
@@ -12,7 +11,7 @@ What will be the result?
 
 <details>
   <summary>
-Solution
+    Solution
   </summary>
 
   <p>
@@ -21,4 +20,4 @@ Solution
     
 </details>
 
-[Episode 6 exercise 6](episode6_ex6.md)
+[Episode 6 Exercise 6](episode6_ex6.md)
