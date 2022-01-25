@@ -12,34 +12,21 @@ $ git checkout HEAD ketchup.md
 $ cat ketchup.md # this will print the content of ketchup.md on screen
 ```
 
-1.
-```console
-ketchup enchances pasta dishes
-```
-
-2.
-```console
-I like tomatos, therefore I like ketchup
-```
-
-3.
-```console
-I like tomatos, therefore I like ketchup
-ketchup enchances pasta dishes
-```
-
-4.
-```console
-Error because you have changed ketchup.md without committing the changes
-```
+<ol>
+  <li><pre><code>ketchup enchances pasta dishes</code></pre></li>
+  <li><pre><code>I like tomatos, therefore I like ketchup</code></pre></li>
+  <li><pre><code>I like tomatos, therefore I like ketchup
+ketchup enchances pasta dishes</code></pre></li>
+  <li><pre><code>Error because you have changed ketchup.md without committing the changes</code></pre></li>
+</ol>
 
 <details>
   <summary>
-Solution
+    Solution
   </summary>
 
   <p>
-The answer is 2.
+    The answer is 2.
   </p>
   <p>
     The changes to the file from the second <code>echo</code> command are only applied to the working copy, The command <code>git add ketchup.md</code> places the current version of <code>ketchup.md</code> into the staging area. not the version in the staging area.
@@ -55,4 +42,4 @@ The answer is 2.
   
 </details>
   
-[Episode 6 exercise 1](episode6_ex1.md)
+[Episode 5 Exercise 4](episode5_ex4.md)
