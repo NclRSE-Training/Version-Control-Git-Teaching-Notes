@@ -1,4 +1,3 @@
-
 ## 6.3 Ignoring Nested Files: Variation
 
 Given a directory structure that looks similar to the earlier Nested Files exercise, but with a slightly different directory structure:
@@ -17,7 +16,7 @@ Hint: think a bit about how you created an exception with the ```!``` operator b
 
 <details>
   <summary>
-Solution
+    Solution
   </summary>
 
   <p>
@@ -29,4 +28,4 @@ Solution
 
 </details>
 
-[Episode 6 exercise 4](episode6_ex4.md)
+[Episode 6 Exercise 4](episode6_ex4.md)
