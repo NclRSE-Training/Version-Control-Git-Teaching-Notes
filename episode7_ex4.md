@@ -38,4 +38,4 @@ create mode 100644 README.md</code></pre>
 
 </details>
 
-[Episode 8 Exercise 1](episode8_ex1)
+[Episode 8 Exercise 1](episode8_ex1.md)
