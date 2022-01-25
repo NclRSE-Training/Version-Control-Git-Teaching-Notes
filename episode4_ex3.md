@@ -2,66 +2,65 @@
 
 The staging area can hold changes from any number of files that you want to commit as a single snapshot.
 
-1. Add some text to guacamole.md noting the rough price of the ingredients.
-1. Create a new file groceries.md with a list of products and their prices for different markets.
+1. Add some text to ```guacamole.md``` noting the rough price of the ingredients.
+1. Create a new file ```groceries.md``` with a list of products and their prices for different markets.
 1. Add changes from both files to the staging area, and commit those changes.
 
 <details>
   <summary>
-        Solution
+Solution
   </summary>
 
-First we make our changes to the guacamole.md and groceries.md files:
+First we make our changes to the <code>guacamole.md</code> and <code>groceries.md</code> files:
 
-<pre>
-  $ nano guacamole.md
-  $ cat guacamole.md
+  <pre>
+<code>$ nano guacamole.md
+$ cat guacamole.md</code>
   </pre>
   
-<pre>
-  # Ingredients
-  - avocado (1.35)
-  - lime (0.64)
-  - salt (2)
+  <pre>
+<code># Ingredients
+- avocado (1.35)
+- lime (0.64)
+- salt (2)</code>
   </pre>
 
-<pre>
-  $ nano groceries.md
-  $ cat groceries.md
+  <pre>
+<code>$ nano groceries.md
+$ cat groceries.md</code>
   </pre>
   
-<pre>
-  # Market A
-  - avocado: 1.35 per unit.
-  - lime: 0.64 per unit
-  - salt: 2 per kg
+  <pre>
+<code># Market A
+- avocado: 1.35 per unit.
+- lime: 0.64 per unit
+- salt: 2 per kg</code>
   </pre>
 
- Now you can add both files to the staging area. We can do that in one line:
+Now you can add both files to the staging area. We can do that in one line:
 
- <pre>
-  $ git add guacamole.md groceries.md
-  </pre>
+<pre><code>$ git add guacamole.md groceries.md</code></pre>
+  
 Or with multiple commands:
   
   <pre>
-  $ git add guacamole.md
-  $ git add groceries.md
+<code>$ git add guacamole.md
+$ git add groceries.md</code>
   </pre>
 
-Now the files are ready to commit. You can check that using ```git status```. If you are ready to commit use:
+  Now the files are ready to commit. You can check that using <code>git status</code>. If you are ready to commit use:
 
   <pre>
 $ git commit -m "Write prices for ingredients and their source"
   </pre>
 
-    <pre>
-[master cc127c2]
+  <pre>
+<code>[master cc127c2]
  Write prices for ingredients and their source
  2 files changed, 7 insertions(+)
- create mode 100644 groceries.md
+ create mode 100644 groceries.md</code>
   </pre>
 
-  </details>
+</details>
   
-  [Episode 4 exercise 4](episode4_ex4.md)
+[Episode 4 exercise 4](episode4_ex4.md)
