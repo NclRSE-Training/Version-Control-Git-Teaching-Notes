@@ -1,4 +1,3 @@
-
 ## 4.2 Committing Changes to Git
 
 Which command(s) below would save the changes of ```myfile.txt``` to my local Git repository?
@@ -34,4 +33,4 @@ $ git commit -m "my recent changes"</code></pre>
   
   </details>
 
-[Episode 4 exercise 3](episode4_ex3.md)
+[Episode 4 Exercise 3](episode4_ex3.md)
